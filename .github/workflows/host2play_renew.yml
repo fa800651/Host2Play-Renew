@@ -3,7 +3,7 @@ name: Host2Play-Renew
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 8 */2 * *'
+    - cron: '* */6 * * *'
 
 jobs:
   renew:
